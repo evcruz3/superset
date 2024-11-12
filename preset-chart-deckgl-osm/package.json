@@ -85,7 +85,7 @@
   "peerDependencies": {
     "@airbnb/config-babel": "^2.0.1",
     "@superset-ui/chart-controls": "*",
-    "@superset-ui/core": "^0.20.2",
+    "@superset-ui/core": "^0.18.25",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-map-gl": "^6.1.21"
