@@ -63,6 +63,7 @@
     "mousetrap": "^1.6.5",
     "ol": "^10.2.0",
     "prop-types": "^15.8.1",
+    "react-beautiful-dnd": "^13.1.1",
     "react-bootstrap-slider": "3.0.0",
     "react-hot-loader": "^4.13.1",
     "underscore": "^1.13.7",
