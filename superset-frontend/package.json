@@ -136,6 +136,7 @@
     "chrono-node": "^2.7.6",
     "classnames": "^2.2.5",
     "core-js": "^3.38.1",
+    "currencyformatter.js": "^1.0.5",
     "d3-scale": "^2.1.2",
     "@deck.gl/layers": "^9.0.28",
     "@deck.gl/aggregation-layers": "^9.0.28",
