@@ -30,8 +30,7 @@
       "@emotion/react/types/css-prop",
       "jest",
       "@testing-library/jest-dom",
-      "@types/node",
-      "@types/cheerio"
+      "@types/node"
     ],
 
     /* Emit */
