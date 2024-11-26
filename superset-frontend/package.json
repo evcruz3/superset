@@ -81,6 +81,7 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
+    "@deck.gl/core": "^9.0.28",
     "@emotion/cache": "^11.4.0",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.3.0",
