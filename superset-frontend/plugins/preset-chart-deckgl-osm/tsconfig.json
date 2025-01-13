@@ -1,47 +1,26 @@
 {
   "compilerOptions": {
-    "jsx": "react",
     "declarationDir": "lib",
     "outDir": "lib",
-    "rootDir": "src",
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": false,
-    "lib": [
-      "dom",
-      "esnext"
-    ],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noEmitOnError": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "pretty": true,
-    "removeComments": false,
-    "strict": true,
-    "target": "es2015",
-    "useDefineForClassFields": false,
-    "composite": true,
-    "declarationMap": true,
-    "skipLibCheck": true,
-    "emitDeclarationOnly": true,
-    "resolveJsonModule": true,
-    "types": ["jest"],
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
+    "rootDir": "src"
   },
   "exclude": [
     "lib",
-    "test",
-    "dist",
-    "node_modules"
+    "test"
   ],
+  "extends": "../../tsconfig.json",
   "include": [
     "src/**/*",
     "types/**/*",
+    "test/**/*",
+    "../../types/**/*"
   ],
+  "references": [
+    {
+      "path": "../../packages/superset-ui-chart-controls"
+    },
+    {
+      "path": "../../packages/superset-ui-core"
+    }
+  ]
 }
-
